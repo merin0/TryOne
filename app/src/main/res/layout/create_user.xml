@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray"
+                android:textSize="14sp"
+                android:paddingBottom="8dp"
+                android:text="@string/personal_info" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardCornerRadius="8dp"
+                card_view:cardPreventCornerOverlap="false"
+                card_view:cardUseCompatPadding="true"
+                android:elevation="@dimen/elevation">
+
+                <LinearLayout
+                    android:padding="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/gray"
+                        android:textSize="16sp"
+                        android:text="@string/full_name" />
+
+                    <EditText
+                        android:id="@+id/name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:editable="true"
+                        android:hint="@string/full_name"
+                        android:textColorHint="@color/colorControlHighlight"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="8dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    card_view:cardCornerRadius="8dp"
+                    card_view:cardPreventCornerOverlap="false"
+                    card_view:cardUseCompatPadding="true"
+                    android:elevation="@dimen/elevation">
+
+                    <LinearLayout
+                        android:padding="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/gray"
+                            android:textSize="16sp"
+                            android:text="@string/country" />
+
+                        <EditText
+                            android:id="@+id/pais"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:editable="true"
+                            android:hint="@string/country"
+                            android:textColorHint="@color/colorControlHighlight"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <Space
+                    android:layout_width="8dp"
+                    android:layout_height="wrap_content" />
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    card_view:cardCornerRadius="8dp"
+                    card_view:cardPreventCornerOverlap="false"
+                    card_view:cardUseCompatPadding="true"
+                    android:elevation="@dimen/elevation">
+
+                    <LinearLayout
+                        android:padding="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/gray"
+                            android:textSize="16sp"
+                            android:text="@string/birth_date" />
+
+                        <EditText
+                            android:id="@+id/birth"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:editable="true"
+                            android:hint="@string/country"
+                            android:textColorHint="@color/colorControlHighlight"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

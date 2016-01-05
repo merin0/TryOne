@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">César García</string>
+    <string name="hello_world">Programador</string>
+    <string name="carrera">Ing. Eléctrica y Electrónica\nDeveloper</string>
+    <string name="name">César García Marín</string>
+    <string name="action_settings">Contáctame</string>
+    <string name="openDrawer">Drawer Abierto</string>
+    <string name="closeDrawer">Drawer Cerrado</string>
+    <string name="obj_prof_title">Objetivo Profesional</string>
+    <string name="exp_prof_title">Experiencia Profesional</string>
+    <string name="form_acad_title">Formación académica</string>
+
+    <string name="personal_info">Datos Personales</string>
+    <string name="full_name">Nombre completo:</string>
+    <string name="country">Pais:</string>
+    <string name="birth_date">Fecha de Nacimiento:</string>
+    <string name="gender">Género:</string>
+    <string name="civil_state">Estado Civil:</string>
+    <string name="state">Estado:</string>
+    <string name="city">Ciudad:</string>
+    <string name="address">Dirección:</string>
+    <string name="email">Correo Electrónico:</string>
+    <string name="tel">Teléfono Fijo:</string>
+    <string name="cel">Móvil:</string>
+    <string name="jobs">Datos Laborales:</string>
+    <string name="title">Título:</string>
+    <string name="puesto">Puesto:</string>
+    <string name="obj_prof">Objetivo Profesional:</string>
+
+</resources>

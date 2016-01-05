@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lldrawer"
+    android:layout_width="match_parent"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="?android:selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rowIcon"
+        android:tint="@color/textColorPrimary"
+        android:src="@drawable/ic_action_call"
+        android:paddingLeft="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="12dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Lenguajes de programación:C/C++, C#, Java, html, css3, javascript, JQuerry, PHP y MySQL.\n"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="@dimen/fontSize"
+        android:id="@+id/rowText" />
+
+</LinearLayout>
