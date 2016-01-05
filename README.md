@@ -1,2 +1,2 @@
-# TryOne
-# An app to create and Share your own Curiculum Vitae
+# CV App ñ_ñ
+An app to create and Share your own Curiculum Vitae
